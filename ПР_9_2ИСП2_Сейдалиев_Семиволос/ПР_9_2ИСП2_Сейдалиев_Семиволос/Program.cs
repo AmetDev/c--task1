@@ -45,7 +45,7 @@ namespace ПР9_2ИСП2_Сейдалиев_Семиволос
 
         static void z3(double a, double b) //задача 3
         {
-            if (((Math.Pow(a, 2) + Math.Pow(a, 2) < 4) & (Math.Pow(a, 2) + b > 1) & (a < 0 & b > 0)) || (Math.Pow(a, 2) + Math.Pow(b, 2) < 1) & (a < 0 & b < 0))
+            if (((Math.Pow(a, 2) + Math.Pow(b, 2) < 4) & (Math.Pow(a, 2) + Math.Pow(b,2) > 1) & (a < 0 & b > 0)) || (Math.Pow(a, 2) + Math.Pow(b, 2) < 1) & (a < 0 & b < 0))
                 Console.WriteLine("X принадлежит ОДЗ");
             else
                 Console.WriteLine("X не принадлежит ОДЗ");
